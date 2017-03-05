@@ -8,6 +8,8 @@ namespace COmp1004_Movie_Assignment3
 {
     static class Program
     {
+        public static MovieAndGenre info = new MovieAndGenre();
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,7 @@ namespace COmp1004_Movie_Assignment3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SplashForm());
         }
     }
 }
