@@ -67,6 +67,12 @@
     <Compile Include="SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StreamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StreamForm.Designer.cs">
+      <DependentUpon>StreamForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

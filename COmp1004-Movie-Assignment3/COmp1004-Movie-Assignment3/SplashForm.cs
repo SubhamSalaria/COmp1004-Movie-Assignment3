@@ -16,5 +16,14 @@ namespace COmp1004_Movie_Assignment3
         {
             InitializeComponent();
         }
+
+        private void SplashTimer_Tick(object sender, EventArgs e)
+        {
+            SplashTimer.Stop();
+            SelectionForm select = new SelectionForm();
+            select.Show();
+            this.Hide();
+
+        }
     }
 }
