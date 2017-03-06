@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Name: Shubham Salaria
+// Student #: 200333595
+// Date: march 5th 2017
+
 namespace COmp1004_Movie_Assignment3
 {
     public partial class SelectionForm : Form
