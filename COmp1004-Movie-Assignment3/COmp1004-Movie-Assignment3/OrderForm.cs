@@ -129,9 +129,8 @@ namespace COmp1004_Movie_Assignment3
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Developer: Chandra Gundam" + "\r\n" +
-                "Version: 3.0" + "\r\n" + "Website: www.moviebonanza.com" + "\r\n" +
-                "About");
+            MessageBox.Show("Developer: Shubam Salaria" + "\r\n" +
+                "Version: 4.0" );
         }
     }
 }
